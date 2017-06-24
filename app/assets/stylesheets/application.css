@@ -69,3 +69,51 @@ li {
     text-decoration: line-through;
 }
 Contact GitHub API Training Shop Blog About
+
+h1 {
+    color: red;
+}
+#go-back {
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+    outline: none;
+    border-style: none;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px #90A4AE;
+    display: inline;
+    background-color: #03A9F4;
+    margin: 20px;
+}
+#edit-todo {
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+    outline: none;
+    border-style: none;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px #90A4AE;
+    display: inline;
+    background-color: #03A9F4;
+    margin: 20px;
+}
+#delete-todo {
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+    outline: none;
+    border-style: none;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px #90A4AE;
+    display: inline;
+    background-color: #03A9F4;
+    margin: 20px;
+}
+.show-block {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}

@@ -13,3 +13,59 @@
  *= require_tree .
  *= require_self
  */
+h1 {
+    color: red;
+    padding: 10px 20px 5px 20px;
+}
+ul {
+    list-style-type: none;
+}
+.pomodoro-estimate {
+    font-weight: bold;
+    color: #44CAFF;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+}
+#add-new-todo-button {
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    outline: none;
+    border-style: none;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px #90A4AE;
+    display: block;
+    background-color: #03A9F4;
+    margin: 20px;
+}
+#add-new-todo-button:active {
+    box-shadow: 3px 3px 1px #90A4AE;
+}
+li:hover {
+    background-color: #e2e2e2;
+}
+li {
+    /*width: 95%;*/
+    padding: 10px;
+}
+#new-todo {
+    margin: 20px 20px 10px 20px;
+    display: inline;
+    padding: 10px;
+}
+#set-pomodoro {
+    margin: 5px 20px 5px 20px;
+    display: inline;
+    padding: 10px;
+}
+.index-block {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+.completed-todo {
+    text-decoration: line-through;
+}
+Contact GitHub API Training Shop Blog About

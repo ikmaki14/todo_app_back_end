@@ -3,7 +3,11 @@
     <ul>
         <% @list.each do |todo| %>
         <li>
-            <input id="checkBox" type="checkbox"><a href=<%="/todo/show/#{todo.id}"%>><%= todo.description %></a>
+            <!--<form action=<%="/todo/toggle/#{todo.id}"%>>-->
+                <input name="complete" id="checkBox" type="checkbox">
+                <!--onChange="this.form.submit()">-->
+            <!--</form>-->
+            <a href=<%="/todo/show/#{todo.id}"%>><%= todo.description %></a>
             <span class="pomodoro-estimate"><%= todo.pomodoro_estimate %> pomodoros</span>
         </li>
         <% end %>

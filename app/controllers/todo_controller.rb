@@ -8,6 +8,13 @@ class TodoController < ApplicationController
     def new
     end
     
+    def toggle
+        t =Todo.find_by_id(params[:id])
+        t.complete=!!params[:complete]
+        t.save
+        redirect_to "/todo/index"
+    end
+    
     def update
         t=Todo.find_by_id(params[:id])
         t.description=params[:description]

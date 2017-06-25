@@ -1,6 +1,7 @@
 class TodoController < ApplicationController
     # list all todos
     def index
+        @list=Todo.all
     end
     
     # display form to create new todo

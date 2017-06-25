@@ -3,7 +3,7 @@
         <div id="new-todo-block">
             <input name="description" id="new-todo-description" type="text" value=<%= @todo.description %>>
             <input name="pomodoro_estimate" id="new-pomodoro-estimate" type="text" value=<%= @todo.pomodoro_estimate %>>
-            <input id="add-new-todo-button" type="submit" value="Add Todo">
+            <input id="add-new-todo-button" type="submit" value="Update Todo">
         </div>
     </form>
     <a href=<%="/todo/show/#{@todo.id}"%>><input id="go-back" type="button" value="Go Back"></a>

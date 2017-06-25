@@ -2,8 +2,8 @@
 <h3>x is<%= params[:x] %></h3>
 <div class="show-block">
             <input id="checkBox" type="checkbox">
-            <h1><%= @pomodoro_description %></h1>
-            <h3><%= @pomodoro_estimate %> pomodoros</h3>
+            <h1><%= @todo.description %></h1>
+            <h3><%= @todo.pomodoro_estimate %> pomodoros</h3>
             <a href="/todo/index"><input id="go-back" type="button" value="Go Back"></a>
             <input id="edit-todo" type="button" value="Edit">
             <input id="delete-todo" type="button" value="Delete">

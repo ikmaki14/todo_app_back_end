@@ -5,7 +5,7 @@
             <h1><%= @todo.description %></h1>
             <h3><%= @todo.pomodoro_estimate %> pomodoros</h3>
             <a href="/todo/index"><input id="go-back" type="button" value="Go Back"></a>
-            <input id="edit-todo" type="button" value="Edit">
+            <a href=<%="/todo/edit/#{@todo.id}"%>><input id="edit-todo" type="button" value="Edit"></a>
             <input id="delete-todo" type="button" value="Delete">
         </div>
         
